@@ -16,6 +16,10 @@
 		2AE10EAF2413D88F005F607B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE10EAE2413D88F005F607B /* main.m */; };
 		2AE10EB92413D88F005F607B /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE10EB82413D88F005F607B /* ____Tests.m */; };
 		2AE10EC42413D88F005F607B /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE10EC32413D88F005F607B /* ____UITests.m */; };
+		2AE10ED32413D8DF005F607B /* LLInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE10ED22413D8DF005F607B /* LLInfo.m */; };
+		2AE10ED52413DA37005F607B /* some.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2AE10ED42413DA37005F607B /* some.plist */; };
+		2AE10ED72413E29D005F607B /* ini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2AE10ED62413E29D005F607B /* ini.jpg */; };
+		2AE10EDB2413FDAC005F607B /* NSString+Sandbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE10EDA2413FDAC005F607B /* NSString+Sandbox.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,12 @@
 		2AE10EBF2413D88F005F607B /* 缓存图片UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "缓存图片UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE10EC32413D88F005F607B /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		2AE10EC52413D88F005F607B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AE10ED12413D8DF005F607B /* LLInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLInfo.h; sourceTree = "<group>"; };
+		2AE10ED22413D8DF005F607B /* LLInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLInfo.m; sourceTree = "<group>"; };
+		2AE10ED42413DA37005F607B /* some.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = some.plist; sourceTree = "<group>"; };
+		2AE10ED62413E29D005F607B /* ini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ini.jpg; sourceTree = "<group>"; };
+		2AE10ED92413FDAC005F607B /* NSString+Sandbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Sandbox.h"; sourceTree = "<group>"; };
+		2AE10EDA2413FDAC005F607B /* NSString+Sandbox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Sandbox.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +117,17 @@
 				2AE10E9C2413D88D005F607B /* AppDelegate.h */,
 				2AE10E9D2413D88D005F607B /* AppDelegate.m */,
 				2AE10E9F2413D88D005F607B /* SceneDelegate.h */,
+				2AE10ED12413D8DF005F607B /* LLInfo.h */,
+				2AE10ED22413D8DF005F607B /* LLInfo.m */,
+				2AE10ED92413FDAC005F607B /* NSString+Sandbox.h */,
+				2AE10EDA2413FDAC005F607B /* NSString+Sandbox.m */,
 				2AE10EA02413D88D005F607B /* SceneDelegate.m */,
 				2AE10EA22413D88D005F607B /* ViewController.h */,
 				2AE10EA32413D88D005F607B /* ViewController.m */,
 				2AE10EA52413D88D005F607B /* Main.storyboard */,
+				2AE10ED42413DA37005F607B /* some.plist */,
 				2AE10EA82413D88F005F607B /* Assets.xcassets */,
+				2AE10ED62413E29D005F607B /* ini.jpg */,
 				2AE10EAA2413D88F005F607B /* LaunchScreen.storyboard */,
 				2AE10EAD2413D88F005F607B /* Info.plist */,
 				2AE10EAE2413D88F005F607B /* main.m */,
@@ -199,6 +215,7 @@
 		2AE10E912413D88D005F607B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LL;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = luowentao;
 				TargetAttributes = {
@@ -240,7 +257,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AE10ED52413DA37005F607B /* some.plist in Resources */,
 				2AE10EAC2413D88F005F607B /* LaunchScreen.storyboard in Resources */,
+				2AE10ED72413E29D005F607B /* ini.jpg in Resources */,
 				2AE10EA92413D88F005F607B /* Assets.xcassets in Resources */,
 				2AE10EA72413D88D005F607B /* Main.storyboard in Resources */,
 			);
@@ -268,6 +287,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AE10EA42413D88D005F607B /* ViewController.m in Sources */,
+				2AE10EDB2413FDAC005F607B /* NSString+Sandbox.m in Sources */,
+				2AE10ED32413D8DF005F607B /* LLInfo.m in Sources */,
 				2AE10E9E2413D88D005F607B /* AppDelegate.m in Sources */,
 				2AE10EAF2413D88F005F607B /* main.m in Sources */,
 				2AE10EA12413D88D005F607B /* SceneDelegate.m in Sources */,
